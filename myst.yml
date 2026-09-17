@@ -1,0 +1,26 @@
+version: 1
+
+project:
+  id: 1e8bd4ed-a0e6-4034-b1e2-c76e53aed2e6
+  title: Git, GitHub, and PowerShell
+  description: Tutorials and quick-reference guides for Git, GitHub, and PowerShell
+  authors:
+    - name: Michael Barmann
+  github: https://github.com/MichaelBarmann/git-github-powershell
+  toc:
+    - file: index.md
+    - title: Git and GitHub
+      children:
+        - file: git_github/creating_a_new_repo.md
+        - file: git_github/git_github_quick_reference.md
+        - file: git_github/overleaf_notes_submodule_setup.md
+        - file: git_github/overleaf_submodule_workflow.md
+    - title: PowerShell
+      children:
+        - file: powershell/how_to_create_a_powershell_navigation_shortcut.md
+
+site:
+  template: book-theme
+  options:
+    logo_text: Git, GitHub, and PowerShell
+    hide_footer_links: true
