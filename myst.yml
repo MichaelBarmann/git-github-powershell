@@ -4,8 +4,6 @@ project:
   id: 1e8bd4ed-a0e6-4034-b1e2-c76e53aed2e6
   title: Git, GitHub, and PowerShell
   description: Tutorials and quick-reference guides for Git, GitHub, and PowerShell
-  authors:
-    - name: Michael Barmann
   github: https://github.com/MichaelBarmann/git-github-powershell
   toc:
     - file: index.md
@@ -24,3 +22,4 @@ site:
   options:
     logo_text: Git, GitHub, and PowerShell
     hide_footer_links: true
+    style: custom.css

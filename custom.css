@@ -1,0 +1,28 @@
+/* Reduce page-title size without changing headings inside the chapter. */
+.myst-fm-block-title {
+  font-size: 2.25rem !important;
+  line-height: 1.15 !important;
+}
+
+/* Desktop layout with the full table of contents visible. */
+@media (min-width: 1280px) {
+  /*
+   * Move the GitHub, edit, and download controls into the top bar,
+   * immediately to the left of the search box.
+   */
+  .myst-fm-block-header {
+    position: fixed;
+    top: 1.25rem;
+    right: max(22rem, calc((100vw - 90rem) / 2 + 22rem));
+    z-index: 40;
+    margin-bottom: 0 !important;
+  }
+
+  /*
+   * Align the page title approximately with the first item in the
+   * left-hand table of contents.
+   */
+  .myst-fm-block {
+    padding-top: 1.5rem !important;
+  }
+}
