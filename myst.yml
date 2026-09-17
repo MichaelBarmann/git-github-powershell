@@ -9,10 +9,12 @@ project:
     - file: index.md
     - title: Git and GitHub
       children:
+	- file: git_github/git_github_quick_reference.md
         - file: git_github/creating_a_new_repo.md
-        - file: git_github/git_github_quick_reference.md
         - file: git_github/overleaf_notes_submodule_setup.md
-        - file: git_github/overleaf_submodule_workflow.md
+  	- file: git_github/overleaf_submodule_workflow.md
+        - file: git_github/automated_pdf_release.md
+
     - title: PowerShell
       children:
         - file: powershell/how_to_create_a_powershell_navigation_shortcut.md
